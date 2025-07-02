@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.form-section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+input, button {
+    padding: 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background: #2b8a3e;
+    color: white;
+    border: none;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #2f9e44;
+}
+
+.list-section {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    background: #f8f9fa;
+    font-weight: 600;
+}
+
+.status-active {
+    color: #2b8a3e;
+    font-weight: 500;
+}
+
+.status-expired {
+    color: #c92a2a;
+    font-weight: 500;
+}
+
+.action-btn {
+    cursor: pointer;
+    margin: 0 5px;
+    transition: opacity 0.3s;
+}
+
+.action-btn:hover {
+    opacity: 0.7;
+}
+
+.renew-btn {
+    color: #2b8a3e;
+    font-weight: bold;
+}
+
+.edit-btn {
+    color: #1971c2;
+}
+
+.delete-btn {
+    color: #c92a2a;
+    font-weight: bold;
+}
+
+.date-cell {
+    white-space: nowrap;
+}
+
+.swal2-input {
+    width: 80% !important;
+    margin: 1em auto !important;
+}
